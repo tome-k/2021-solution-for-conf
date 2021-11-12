@@ -34,5 +34,5 @@
 </script>
 
 <!--
-- Shawn Want: https://www.swyx.io/learn-in-public/
+- Shawn Wang: https://www.swyx.io/learn-in-public/
 -->
