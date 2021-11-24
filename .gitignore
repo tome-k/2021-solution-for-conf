@@ -4,3 +4,6 @@ dist
 *.local
 .remote-assets
 components.d.ts
+
+# Local Netlify folder
+.netlify
