@@ -9,9 +9,9 @@
 <v-clicks>
 
 - I'm good at solving other's problems
-- you learn more than you think from explaining to the others
-- variety of questions 👉 broader knowledge
-- used to have a lot of commute time, best way to spend time 🚌
+- You learn more than you think from explaining to the others
+- Variety of questions 👉 broader knowledge
+- Used to have a lot of commute time, best way to spend time 🚌
 
 </v-clicks>
 </div>
