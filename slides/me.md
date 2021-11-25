@@ -2,50 +2,47 @@
 preload: false
 ---
 
-<h1 class="!text-pink-500">Hi! 🍉</h1>
+<h1 class="!text-pink-500">Hi! 👋</h1>
 
 <h3>Konstantin BIFERT ~ <span
     class="text-transparent bg-clip-text bg-gradient-to-br from-orange-500 to-pink-500">kissu</span></h3>
 
 <div class="flex mt-6">
-  <img v-motion :initial="{ x: 30, y: -50, scale: 1, rotate: -200 }" :enter="final"
-    class="top-0 left-0 right-0 bottom-0 h-24 w-24 rounded" src="/images/kissu.jpg"
+  <img v-motion :initial="{ x: -200, y: 0, scale: 1, rotate: 0 }" :enter="final"
+    class="top-0 left-0 right-0 bottom-0 h-48 w-48 rounded" src="/images/kissu.jpg"
     alt="photo of konstantin" />
   <section class="ml-4">
     <p class="!m-0">
-      🎨 Frontend Developer <a href="https://twitter.com/passionpeopleNL">@passionpeopleNL</a>
+      <logos-vue/> Frontend Consultant <a href="https://twitter.com/passionpeopleNL">@passionpeopleNL</a>
     </p>
-    <p class="!my-2">
+    <p class="my-2">
       <logos-nuxt-icon class="inline h-6" />
-      <a href="https://nuxtjs.org/teams" class="ml-2">
-        Nuxt.js Ambassador
-      </a>
+      <a href="https://nuxtjs.org/teams" class="ml-2">Nuxt.js Ambassador</a>
     </p>
-    <p class="!my-2">
+    <p class="my-2">
       <logos-stackoverflow-icon class="inline mr-2" />
-      <a href="https://stackoverflow.com/users/8816585/kissu">
-        Daily helper on Stackoverflow
-      </a>
+      <a href="https://stackoverflow.com/users/8816585/kissu">Daily helper on Stackoverflow</a>
+      <p>🎤  Speaking in public places</p>
+      <p>✨ I'm into gaming, I love mech keyboards, tech and DIY nerdy stuff</p>
     </p>
   </section>
 </div>
-
-<div class="mt-4"></div>
-
-<v-clicks>
-
-- ✍️ Help sometimes on the documentation
-- 🙏 Doing a bit of [mentoring](https://mentorcruise.com/mentor/konstantinbifert/)
-- 🎤 Before COVID, was speaking in public places
-- ✨ I'm into gaming, I love mech keyboards, tech and DIY nerdy stuff
-- PS: this talk is done with [Slidev](https://sli.dev/), give it a try! 🤩
-
-</v-clicks>
 
 <script setup lang="ts">
   const final = {
     x: 0,
     y: 0,
+    scale: 1,
+    transition: {
+      type: 'spring',
+      damping: 10,
+      stiffness: 20,
+      mass: 2
+    }
+  }
+  const melon = {
+    x: 50,
+    y: -50,
     rotate: 0,
     scale: 1,
     transition: {

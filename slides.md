@@ -37,3 +37,43 @@ src: ./slides/me.md
 ---
 src: ./slides/about_what.md
 ---
+
+---
+src: ./slides/how.md
+---
+
+---
+src: ./slides/why.md
+---
+
+---
+src: ./slides/rich_meme.md
+---
+
+---
+src: ./slides/so.md
+---
+
+---
+src: ./slides/so2.md
+---
+
+---
+src: ./slides/journey.md
+---
+
+---
+src: ./slides/benefits.md
+---
+
+---
+src: ./slides/cons.md
+---
+
+---
+src: ./slides/stats.md
+---
+
+---
+src: ./slides/you.md
+---

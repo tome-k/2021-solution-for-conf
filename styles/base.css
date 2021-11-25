@@ -1,5 +1,5 @@
 .slidev-layout h1 {
-  @apply text-pink-300;
+  @apply text-transparent bg-clip-text bg-gradient-to-t from-red-500 to-pink-500;
 }
 h1, h2, h3, h4, p, div, a {
   @apply font-sans m-0;
