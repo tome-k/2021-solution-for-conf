@@ -1,13 +1,13 @@
-/* .slidev-layout h1 {
-  @apply text-purple-300;
-} */
+.slidev-layout h1 {
+  @apply text-pink-300;
+}
 h1, h2, h3, h4, p, div, a {
   @apply font-sans m-0;
 }
 .dark #slide-content,
 .slidev-layout.cover,
 .slidev-layout.intro {
-  background-color: hsl(192.7, 96.3%, 10.6%);
+  @apply text-gray-100 bg-warm-gray-900;
 }
 .slidev-layout {
   @apply py-8;

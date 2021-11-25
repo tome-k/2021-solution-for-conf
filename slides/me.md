@@ -2,10 +2,10 @@
 preload: false
 ---
 
-<h1 class="!text-green-500">Hi! 🍉</h1>
+<h1 class="!text-pink-500">Hi! 🍉</h1>
 
 <h3>Konstantin BIFERT ~ <span
-    class="text-transparent bg-clip-text bg-gradient-to-br from-orange-300 to-teal-700">kissu</span></h3>
+    class="text-transparent bg-clip-text bg-gradient-to-br from-orange-500 to-pink-500">kissu</span></h3>
 
 <div class="flex mt-6">
   <img v-motion :initial="{ x: 30, y: -50, scale: 1, rotate: -200 }" :enter="final"
@@ -13,10 +13,10 @@ preload: false
     alt="photo of konstantin" />
   <section class="ml-4">
     <p class="!m-0">
-      🎨 Frontend Developer <a href="https://twitter.com/passionpeopleNL">@passionpeopleNL</a> (November)
+      🎨 Frontend Developer <a href="https://twitter.com/passionpeopleNL">@passionpeopleNL</a>
     </p>
     <p class="!my-2">
-      <img src="/images/nuxt_logo.svg" class="inline h-6">
+      <logos-nuxt-icon class="inline h-6" />
       <a href="https://nuxtjs.org/teams" class="ml-2">
         Nuxt.js Ambassador
       </a>
@@ -27,7 +27,6 @@ preload: false
         Daily helper on Stackoverflow
       </a>
     </p>
-
   </section>
 </div>
 
