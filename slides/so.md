@@ -14,7 +14,7 @@
 <p v-click>Why SO particularly:</p>
 <ul>
   <li v-click>alone on the frontend team, needed some documentation/bookmarks/examples</li>
-  <li v-click>was already used to help but in private places <img class="h-24" src="images/slack_help.png"/><img class="h-24" src="images/slack_js.png"/></li>
+  <li v-click>was already used to help but in private places <img class="h-24" src="/images/slack_help.png"/><img class="h-24" src="/images/slack_js.png"/></li>
 </ul>
 </div>
 
