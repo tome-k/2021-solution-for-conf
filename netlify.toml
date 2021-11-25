@@ -3,7 +3,7 @@
 
 [build]
   publish = "dist"
-  command = "npx playwright install && npx playwright install-deps && pnpm build"
+  command = "npx playwright install && npx playwright install-deps && npx pnpm i --store=node_modules/.pnpm-store && npx pnpm run build"
 
 [[redirects]]
   from = "/*"
